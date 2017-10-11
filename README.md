@@ -1,9 +1,6 @@
 # open-joblist
 
-## Subjects
-* React v16
-* Redux (with complex, normalized data structure)
-* TypeScript
-* Server-side Rendering
-* TDD (Unit tests) - jest, i guess...
-* Functional Programming
+## Today 
+* Implement testing suite with Jest (TypeScript)
+* Use testing library called Enzyme (by @airbnb)
+* For React 16

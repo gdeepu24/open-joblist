@@ -1,11 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-class Hello extends React.Component {
-    render() {
-        return <h1>Hello!</h1>;
-    }
-}
+import Hello from "./components/Hello";
+
+// Include styles into the app
+require("./styles/style.scss");
 
 ReactDOM.render(
     <Hello />,

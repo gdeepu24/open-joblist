@@ -2,9 +2,10 @@
     "compilerOptions": {
         "outDir": "./target/",
         "sourceMap": true,
+        "skipLibCheck": true,
         "noImplicitAny": true,
         "module": "commonjs",
-        "target": "es5", // es6?
+        "target": "es5",
         "jsx": "react"
     },
     "include": [
