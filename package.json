@@ -4,15 +4,21 @@
   "description": "Yet another React Tutorial.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest",
+   // "test": "./node_modules/.bin/jest",
     "build": "./node_modules/.bin/webpack",
     "watch:server": "./node_modules/.bin/nodemon -e ts,tsx,js --watch src index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
   },
+ 
   "jest": {
     "setupFiles": [
       "<rootDir>/test-shim.js",
       "<rootDir>/test-setup.js"
+    ],
+     "coverageReporters": [
+      "text",
+      "html"
     ],
     "moduleFileExtensions": [
       "ts",
